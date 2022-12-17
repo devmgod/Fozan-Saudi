@@ -1,0 +1,3 @@
+if click mydrive in our website : client can display his directory folder and can storage this file inside   the direcory folder direct in  server system .
+we need bild complex and hight storage system .client can create many directory and can storage alot of file each folder >...
+like drive in many company like the dropbox or google drive or one drive

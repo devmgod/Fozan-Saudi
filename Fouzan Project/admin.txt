@@ -1,0 +1,3 @@
+in this page only admin for all web site can control users like insert path file system(in llocal  hardisk user1 path (c://user1//)) 
+each users and active or inactive users>...
+and managment all website

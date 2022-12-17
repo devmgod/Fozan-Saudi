@@ -1,0 +1,3 @@
+in the home website client can see list project and some of this project is privet mean only users can chooes some os users in website to display this 
+project >.....
+after click any project will open panel (project detail ) we create samble>...include id project and files project and description and commecnt

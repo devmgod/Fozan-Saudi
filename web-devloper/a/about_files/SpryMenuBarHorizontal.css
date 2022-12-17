@@ -1,0 +1,200 @@
+@charset "UTF-8";
+
+/* SpryMenuBarHorizontal.css - version 0.6 - Spry Pre-Release 1.6.1 */
+
+/* Copyright (c) 2006. Adobe Systems Incorporated. All rights reserved. */
+
+/*******************************************************************************
+
+ LAYOUT INFORMATION: describes box model, positioning, z-order
+
+ *******************************************************************************/
+
+/* The outermost container of the Menu Bar, an auto width box with no margin or padding */
+ul.MenuBarHorizontal
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size:12px;
+	cursor: default;
+	width: auto;
+}
+/* Set the active Menu Bar with this class, currently setting z-index to accomodate IE rendering bug: http://therealcrisp.xs4all.nl/meuk/IE-zindexbug.html */
+ul.MenuBarActive
+{
+	z-index: 1000;
+}
+/* Menu item containers, position children relative to this container and are a fixed width */
+ul.MenuBarHorizontal li
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 12px; font-family:"Arial Black", Gadget, sans-serif;
+	line-height:52px;
+	position: relative;
+	text-align: left;
+	cursor: pointer;
+	width:auto;
+	float: left;
+	background:url(/web/20160903002251im_/http://alf-fouzangroup.com/images/menu_devider.png) no-repeat right center;
+}
+/* Submenus should appear below their parent (top: 0) with a higher z-index, but they are initially off the left side of the screen (-1000em) */
+ul.MenuBarHorizontal ul
+{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-size: 100%;
+	z-index: 1020;
+	cursor: default;
+	width: 16.2em;
+	position: absolute;
+	left: -1000em;
+}
+/* Submenu that is showing with class designation MenuBarSubmenuVisible, we set left to auto so it comes onto the screen below its parent menu item */
+ul.MenuBarHorizontal ul.MenuBarSubmenuVisible
+{
+	left: auto;
+}
+/* Menu item containers are same fixed width as parent */
+ul.MenuBarHorizontal li a{
+		font-weight:bold;}
+ul.MenuBarHorizontal ul li
+{
+	width: 16.2em;
+}
+ul.MenuBarHorizontal ul li a	
+{
+	text-decoration:none;
+	line-height:52px;
+	border:solid #66ccff; border-width:0 0 1px 0;
+
+	
+	
+}
+/* Submenus should appear slightly overlapping to the right (95%) and up (-5%) */
+ul.MenuBarHorizontal ul ul
+{
+	position: absolute;
+	margin: -5% 0 0 95%;
+}
+/* Submenu that is showing with class designation MenuBarSubmenuVisible, we set left to 0 so it comes onto the screen */
+ul.MenuBarHorizontal ul.MenuBarSubmenuVisible ul.MenuBarSubmenuVisible
+{
+	left: auto;
+	top: 0;
+}
+
+/*******************************************************************************
+
+ DESIGN INFORMATION: describes color scheme, borders, fonts
+
+ *******************************************************************************/
+
+/* Submenu containers have borders on all sides */
+ul.MenuBarHorizontal ul
+{
+	border: 1px solid #66ccff;
+	background:#0099cc;
+}
+/* Menu items are a light gray block with padding and no text decoration */
+ul.MenuBarHorizontal a
+{
+	display: block;
+	cursor: pointer;
+	background:none;
+	line-height:52px; padding:0 13px;
+	/*padding: 0.5em 0.75em;*/
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;color:#fff;
+	
+	
+}
+ul.MenuBarHorizontal li ul li a { color:#FFF; line-height:40px !important; 	font-style:normal !important; font-weight:normal;}  
+/* Menu items that have mouse over or focus have a blue background and white text */
+ul.MenuBarHorizontal a:hover, ul.MenuBarHorizontal a:focus
+{
+
+	color:#C03;
+}
+/* Menu items that are open with submenus are set to MenuBarItemHover with a blue background and white text */
+ul.MenuBarHorizontal a.MenuBarItemHover, ul.MenuBarHorizontal a.MenuBarItemSubmenuHover, ul.MenuBarHorizontal a.MenuBarSubmenuVisible
+{
+	color:#CCC;
+	
+}
+
+/*******************************************************************************
+
+ SUBMENU INDICATION: styles if there is a submenu under a given menu item
+
+ *******************************************************************************/
+
+/* Menu items that have a submenu have the class designation MenuBarItemSubmenu and are set to use a background image positioned on the far left (95%) and centered vertically (50%) */
+ul.MenuBarHorizontal a.MenuBarItemSubmenu
+{
+
+}
+/* Menu items that have a submenu have the class designation MenuBarItemSubmenu and are set to use a background image positioned on the far left (95%) and centered vertically (50%) */
+ul.MenuBarHorizontal ul a.MenuBarItemSubmenu
+{
+
+}
+/* Menu items that are open with submenus have the class designation MenuBarItemSubmenuHover and are set to use a "hover" background image positioned on the far left (95%) and centered vertically (50%) */
+ul.MenuBarHorizontal a.MenuBarItemSubmenuHover
+{
+
+}
+/* Menu items that are open with submenus have the class designation MenuBarItemSubmenuHover and are set to use a "hover" background image positioned on the far left (95%) and centered vertically (50%) */
+ul.MenuBarHorizontal ul a.MenuBarItemSubmenuHover
+{
+background:url(/web/20160903002251im_/http://alf-fouzangroup.com/images/menu_right.png) right no-repeat;
+}
+
+/*******************************************************************************
+
+ BROWSER HACKS: the hacks below should not be changed unless you are an expert
+
+ *******************************************************************************/
+
+/* HACK FOR IE: to make sure the sub menus show above form controls, we underlay each submenu with an iframe */
+ul.MenuBarHorizontal iframe
+{
+	position: absolute;
+	z-index: 1010;
+	filter:alpha(opacity:0.1);
+}
+/* HACK FOR IE: to stabilize appearance of menu items; the slash in float is to keep IE 5.0 from parsing */
+@media screen, projection
+{
+	ul.MenuBarHorizontal li.MenuBarItemIE
+	{
+		display: inline;
+		f\loat: left;
+		background:none;
+	}
+}
+
+/*
+     FILE ARCHIVED ON 00:22:51 Sep 03, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:16:38 Jun 02, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 59.294
+  exclusion.robots: 0.098
+  exclusion.robots.policy: 0.09
+  RedisCDXSource: 0.541
+  esindex: 0.008
+  LoadShardBlock: 35.768 (3)
+  PetaboxLoader3.datanode: 57.799 (4)
+  CDXLines.iter: 20.764 (3)
+  load_resource: 130.282
+  PetaboxLoader3.resolve: 87.971
+*/

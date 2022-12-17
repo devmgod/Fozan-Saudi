@@ -1,0 +1,16 @@
+I researched about C++ CGI backend carefully for your company website.
+
+As you mentioned before, C++ CGI is good for backend.
+Many companies used C++ as backend programming language and it's good. but recentely they are choosing another programming languages especially between 2020-2022.
+
+Please look at these post.
+
+https://www.educative.io/blog/7-top-back-end-languages-web-development
+https://www.geeksforgeeks.org/10-backend-programming-languages-for-web-developers-in-2022/
+https://nexttechnology.io/top-7-backend-programming-languages-in-2022/
+https://appmaster.io/blog/10-best-web-backend-frameworks
+
+As you can see here, almost companies in the world choose JavaScript and Python(Express, Django...) because of website security and loading speed. I think.
+And most important thing is that Js and Python are fast growing languages as backend. 
+If you build your company website using this, you will be easy to update and maintain the website with strong security and fast speed.
+So finally, I recommend you to choose JavaScript or Python (Express, Django, Flask as framework).

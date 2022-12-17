@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+
+ body{ background: #addaeb url(/web/20160903001447im_/http://alf-fouzangroup.com/images/bg.png) repeat-x; height:464px;
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;}
+a{text-decoration:none; color:#000;}
+a:hover{ color: #F30;}
+img{ border:none;}
+ .moz {	
+ 	border:solid #2891d6; border-width:1px;
+	-moz-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    -webkit-border-radius: 6px;
+	}
+p {	line-height: 24px;	margin-bottom: 1.0em; font-size: 0.9em;}
+p.lead { font-size: 1.0em; }
+
+h1, h2, h3{ font-family: "Trebuchet MS",Verdana,Sans-Serif;}
+
+h1 { font-size: 2.3em; }
+h1 a { color:#fff; border: none; }
+h1 em{ font-size: 1.25em; color: #D0EB6A; font-style: normal; }
+
+h2 {
+	font-size: 20px;
+	letter-spacing: 1px; margin:10px 0; padding:0;
+	color:#0066CC;	}
+h3 {
+	font-size: 1.0em;
+	letter-spacing: 0.2pt;
+	color: #5c0116;
+	text-transform: uppercase;
+	padding-top: 0.5em;}
+
+#main-wrapper{width:100%; margin:0; padding:0px; float:left; height:auto; background:url(/web/20160903001447im_/http://alf-fouzangroup.com/images/wraper-bg.jpg)  repeat-x top center; }
+#wrapper{width:980px; margin:0 auto; padding:0px 10px; }
+
+/*topcorner---------------------------------------------------------------------------------------------------------------------------------*/
+.header{ width:980px; margin:0 auto; height:255px; }
+.right{ background: url(/web/20160903001447im_/http://alf-fouzangroup.com/images/right_bg.png) no-repeat; height:98px; width:18px; margin:auto; float:right;  }
+
+.logo{ width:148px; margin:10px 0 0 0 ; height:auto; float:left;  }
+
+.menu_news_box {margin: 0px; width: 978px; height: 96px; 	float:left;	padding: 0px;	text-align: left; background:url(/web/20160903001447im_/http://alf-fouzangroup.com/images/menu-scroll.png) repeat-x bottom; box-shadow:1px 0 2px #4BB7D6;  	}
+.news_scroll { height:43px; line-height:43px; font-family:Arial, Helvetica, sans-serif; font-size:12px; text-indent:12px; white-space:10px; color:#0066cc;	 }	
+.menu_holder,  .news_scroll{ float:left;margin: 0px; width: 978px; padding: 0px;	text-align: left;	}	
+.menu_holder {  height: 54px;}
+.capt { margin: 0px; width: 634px; height: 152px; 	float:left; padding: 0px; text-align:center;}
+.social { width:197px; line-height:65px; height:85px; padding-top:40px; color:#0099cc; float:left;  text-transform:uppercase; font-weight:bold; font-family:Arial, Helvetica, sans-serif; font-size:13px;			}	
+
+.flash{ width:960px; margin:5px 0 0 0; float:left; height:313px;
+		padding:9px; background:#eeeeee url(/web/20160903001447im_/http://alf-fouzangroup.com/images/flash.jpg) no-repeat center; box-shadow:1px 0 3px #039;   
+			}
+.welcome{
+		width:928px; float:left; height:auto; line-height:24px; 
+		font-family:Arial, Helvetica, sans-serif; font-size:12px;
+
+		background:#fff url(/web/20160903001447im_/http://alf-fouzangroup.com/images/welcome_bg.png) repeat-x bottom;
+		padding:20px 25px; text-align:justify;
+    	}
+				
+.welcome h1{
+		color:#06C !important;
+		text-shadow:1px 0 0 #fff; margin-bottom:7px; font-size:20px; border-bottom:1px solid  #CCC; padding-bottom:10px; font-family:Arial, Helvetica, sans-serif; 
+		}
+	.wel_shadow{
+		background:url(/web/20160903001447im_/http://alf-fouzangroup.com/images/wel-shadow.png) no-repeat top ; width:960px; height:20px; float:left;
+		}
+	.welcome img{
+	padding:0px; margin:0 0 20px 20px;
+	float:right; border:5px solid #eeeeee; box-shadow:1px 0 3px #999;
+
+}	
+
+/*welcomepart_left--------------------------------------------------------------------------------------------------------------------------*/
+.container{ width:980px; height:auto;  margin:15px 0 0; float:left; }
+.main{ width:980px; margin:15px 0 0 0; float:left; padding:0 }
+
+
+.readmore{ width:104px; height:28px; float:right;  background:url(/web/20160903001447im_/http://alf-fouzangroup.com/images/readmore.png); color:#FFF !important; text-indent:25px; font-style:normal; font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:28px;}
+
+
+/*bottom box___________________________________________*/
+
+.box{ width:315px;  float:left; margin:0px 17px 10px 0; background:url(/web/20160903001447im_/http://alf-fouzangroup.com/images/box.png) no-repeat; height:258px;font-family:Arial, Helvetica, sans-serif;  }
+.box_title{ width:315px; height:55px; float: left; color: #0066cc; font-weight:lighter; background:url(/web/20160903001447im_/http://alf-fouzangroup.com/images/title-bg.png) no-repeat bottom center;
+text-align: left; line-height:55px; font-size:22px;}
+.box_3 .dwn{ width:280px; height:70px; float:left; padding:17px 0 0 0; font-size:18px; font-weight:bold; line-height:25px; text-transform:uppercase; }
+.box_3 .dwn img{ float:left; margin:0; padding:0px 25px 0 10px;} 
+.box_title img{ float:left; padding:10px 20px 0 15px;}
+.box_3 .dwn a{ color:#006699 !important;
+	 }
+.box_1, .clients, .box_3{ width:280px; height:180px; margin:0px; float:left; padding:10px 15px;
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:21px; text-align:justify; color:#2c2c2c;}
+.box ul{
+	 list-style:none; margin:0; padding:0 0 0 10px;}
+.box ul li{ list-style:none;}	
+.box ul li a{
+	  height:30px; line-height:30px; text-decoration:none; text-align:left; font-style:normal; float:left; width:250px; text-indent:25px;
+	  background:url(/web/20160903001447im_/http://alf-fouzangroup.com/images/list-img.png) no-repeat left center;text-transform:capitalize;}
+.box_1 a, .clients a, .box_3 a{
+		color:#000; text-decoration:none; }
+.quick_icons{ width:100px; height:140px; margin:0px; float:left; padding-top:20px;}
+.quick_icons img{ padding:0; margin:5px 0;}
+
+.quick_cont{ padding-left:18px; padding-top:9px;}
+.clients img{ float:left; padding:20px 0 0 10px; }
+
+/*footer--------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.footer{
+	margin:0;	width:100%;	min-width:1002px; 	float:left;	font-family:Arial, Helvetica, sans-serif; 	font-size:11px;	color:#333; 	height:70px;	padding: 0; 	background:#7db5de url(/web/20160903001447im_/http://alf-fouzangroup.com/images/footer.png) top;
+		}
+.developed{padding-left:465px;
+}	
+
+.footer_2{
+	 width:990px; height:70px; margin:0 auto; padding:0 0 0 10px; line-height:30px;
+	 color:#CCC; font-family:Arial, Helvetica, sans-serif; font-size:18px; font-weight:normal; font-variant:normal;
+		}
+.copyright{  width:485px; height:70px; float:left; padding:0 0 0 15px; line-height:70px;
+		}
+.solution{	 width:400x !important; height:70px; float:right; padding:0 0 0 15px; line-height:70px;
+	 		}
+.solution img{ padding:20px 0 0 -2px;}			
+.copyright, .solution, .solution a{
+		color:#039;}
+.webmail{
+	 width:210px; height:auto; float:right; padding:10px 0 0 15px; line-height:30px;
+	 		}	
+p{
+		font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; line-height:24px;}
+		
+
+.success{width:auto; height:auto; padding:5px; text-align:left; margin:10px 10px 0 10px; font-family:Verdana, Geneva, sans-serif; font-size:11px; 
+background:#CDF1D9; color:#00A800; border: 1px solid #00A800;}
+.error {width:auto; height:auto; padding:5px; text-align:left; margin:10px 10px 0 10px; font-family:Verdana, Geneva, sans-serif; font-size:11px; 
+background:#FEDEE3;	color:#B72B43;text-align:left;	border: 1px solid #B72B43;}
+
+.service_ico{
+	float:left !important; padding:0 !important; margin:0 !important;}
+	table tr td{ border:dashed #; border-width:0 0 0px 0;}
+	
+	.titless{ font-size:14px; color:#06C; font-weight:700;}
+	.company {
+	margin: 0px; width: 980px; height: 155px; 	float:left;	padding: 0px; background:none;
+	}
+	.gallery_img1{width:620px; height:auto; float:left; }
+.gallery_img1 img{ padding:3px; margin:7px 5px 7px 7px; border:1px solid #CCC; width:110px; height:110px; float:left;}
+
+#news {position:relative; overflow:hidden;width:220px; height:150px; margin-top:15px; float:left; padding:5px 15px 10px 30px;
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:21px; text-align:justify; color:#010B81;}
+#news ul{margin:0; padding:0;}
+#news ul li{margin:0; width:279px;  padding:5px 0px; list-style:none; height:20px;}
+#news ul li a{text-decoration:none; margin:0; display:block; font-family:Verdana, Geneva, sans-serif; font-size:12px;}
+
+
+/*
+     FILE ARCHIVED ON 00:14:47 Sep 03, 2016 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 11:22:18 Jun 02, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 68.347
+  exclusion.robots: 0.141
+  exclusion.robots.policy: 0.128
+  RedisCDXSource: 0.653
+  esindex: 0.01
+  LoadShardBlock: 44.452 (3)
+  PetaboxLoader3.datanode: 74.192 (4)
+  CDXLines.iter: 20.339 (3)
+  load_resource: 85.617
+  PetaboxLoader3.resolve: 42.262
+*/
